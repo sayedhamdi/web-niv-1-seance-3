@@ -1,0 +1,19 @@
+.box{
+    width:400px;
+    height:400px;
+    background:black;
+    color:white;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    background:blue;
+    color:white;
+    border-bottom:10px dotted green;
+    border-top:10px solid green;
+    border-left:10px solid yellow;
+    border-right:10px solid orange;
+    border-radius:50%;
+    list-style-type:none;
+}

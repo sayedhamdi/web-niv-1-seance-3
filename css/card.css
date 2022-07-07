@@ -1,0 +1,50 @@
+/* 
+    3ejbetni el font Impact 
+    madhabeya el background 7aja gham9a
+    taille du texte nom et prenom akber  mel bio
+
+*/
+
+.card{
+
+    width:400px;
+    color: #3587A4;
+    background-color:#C1DFF0;
+    font-size:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px 40px;
+}
+.avatar{
+    width:90%;
+    border:10px solid #88CCF1;
+    padding-right:8px;
+    padding-top:4px;
+    border-radius: 50%;
+}
+.avatar img{
+    width:100%;
+    border-radius: 50%;
+    border:4px solid #2D898B;
+
+}
+.icons img{
+    width:50px;
+}
+
+.infos h3{
+    font-weight:bold;
+    font-size: 30px;
+    text-align:center;
+}
+
+.infos p{
+    opacity: 0.7;
+}
+
+ul {
+    list-style-type: disc;
+    direction:rtl;
+}
+.icons {
+    text-align:center;
+}
