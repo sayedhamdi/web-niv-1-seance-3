@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        background: blue;
+        color: white;
+        width: 300px;
+        height: 300px;
+        box-shadow: 10px 20px 16px gray;
+      }
+      .box:hover {
+        color: yellow;
+        cursor: pointer;
+        /*box-shadow : right bottom blur color; */
+        box-shadow: 15px 25px 10px gray;
+      }
+      a:hover {
+        color: green;
+      }
+      a:active {
+        color: violet;
+      }
+      .btn {
+        color: blue;
+        border-color: blue;
+        background: transparent;
+        border-radius: 5px;
+      }
+      .btn:hover {
+        background: rgba(0, 0, 255, 0.7);
+        color: white;
+        border-color: rgba(0, 0, 255, 0.7);
+      }
+      .btn:active {
+        background: rgba(0, 255, 255, 0.7);
+        color: white;
+        border-color: rgba(0, 255, 255, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <a href="google">google</a>
+    <a href="google">facebook</a>
+    <div class="box">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo magni eaque
+      numquam fuga distinctio reprehenderit quia recusandae minus enim odio in
+      ducimus quo quisquam eos repellat consectetur dignissimos, expedita quae.
+    </div>
+    <br />
+    <button class="btn">click here !</button>
+  </body>
+</html>
